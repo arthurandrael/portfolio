@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+* {margin: 0; padding: 0;}
+
+body{box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  color: #F3F4F6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*    HEADER SECTION    */
+
+header {
+  width: 100vw;
+  background: #030303;
+  position: relative;
+  box-shadow: 0px 2px 3px #212121;
+  z-index: 2;
+}
+
+header img {
+  width: 45vw;
+  max-width: 15rem;
+  padding: 0.1rem 0;
+}
+
+nav {
+  background: green;
+}
+
+ul {
+  width: 100vw;
+  height: 45%;
+  background: #080808E8;
+  list-style: none;
+  position: absolute;
+  top: 10.5%;
+  z-index: 3;
+  align-items: center;
+}
+
+
+
+nav ul > li{
+  
+  font-size: 4.5vw;
+  padding: 2.1vw;
+  margin: 2.1vw 0vw;
+}
+
+ul li > a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 4.5vw;
+}
+
+
+.header-right img {
+  width: 45vw;
+  margin-bottom: 100%;
+}
+
+
+main {
+  position: relative;
+}
+
+
+.section-header {
+  background: #181818;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+
+.header-left {
+  width: 100vw;
+  height: 50%;
+  font-size: 7vw;
+  letter-spacing: 1vw;
+  text-align: center;
+  color: #F3F4F6;
+}
+
+.info-container {
+  width: 60%;
+  text-align: left;
+  margin: 5% auto;
+}
+
+
+.header-right {
+  width: 100vw;
+  height: 50%;
+  display: none;
+}
+
+
+
+.header-left h1{
+  color: #04C4D9;
+  font-size: 13vw;
+  letter-spacing: 1.5vw;
+}
+
+
+#spanB {
+  font-size: 3.5vw;
+  position: absolute;
+  line-height: 6vw;
+}
+
+
+.header-left  a {
+  font-size: 2.8vw;
+  font-weight: bold;
+  color: #F3F4F6;
+  text-decoration: none;
+  padding: 2.5vw 2vw;
+  border-radius: 1vw;
+  letter-spacing: 0.5vw;
+  line-height: 4vw;
+  cursor: pointer;
+}
+
+
+#linkedin {
+  border: .4vw solid mediumvioletred;
+  margin-right: 2.5vw;
+}
+#linkedin:hover {
+  background: linear-gradient(45deg, mediumvioletred, #B106CD);
+  color: #F3F4F6;
+}
+
+#github {
+  border: .4vw solid #7106FF;
+  padding: 2.5vw 4vw;
+}
+#github:hover {
+  background: linear-gradient(45deg, #7106FF, #9722FF);
+  color: #F3F4F6;
+}
+
+
+.header-left a > img {
+  width: 3vw;
+}

@@ -2,6 +2,10 @@
 
 * {margin: 0; padding: 0;}
 
+html {scroll-behavior: smooth;
+  scroll-padding-top: 17.9vw;
+}
+
 body{box-sizing: border-box;
   width: 100vw;
   height: 100vh;
@@ -188,6 +192,7 @@ main {
 
 .dark {
   background: #101014;
+  padding: 1vw 0vw 0vw;
 }
 .dark p {
   padding: 0vw 5vw;
@@ -220,6 +225,7 @@ main {
 
 .light {
   background: #121219F9;
+  padding: 1vw 0vw 0vw;
 }
 
 

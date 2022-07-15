@@ -109,7 +109,7 @@ main {
 .info-container {
   width: 70%;
   text-align: left;
-  margin: 13vw auto;
+  margin: 9vh auto;
   padding: 0vw 5vw;
 }
 
@@ -188,6 +188,8 @@ main {
 
 .dark {
   background: #111111;
+}
+.dark p {
   padding: 0vw 5vw;
 }
 
@@ -216,8 +218,99 @@ main {
 
 
 
-
-
 .light {
   background: #151515F7;
+}
+
+
+.skills-container {
+  padding: 5vw 5vw;
+  width: 80vw;
+  margin: 6vw auto;
+}
+
+#mobile >img, #web > img {
+  width: 10vw;
+}
+#mobile, #web {
+  background: linear-gradient(to top, #25AEF3, #0DC4D9);
+  width: 10vw;
+  height: 10vw;
+  margin: auto;
+}
+
+.skills-container > h3 {
+  font-size: 4.5vw;
+  font-weight: 500;
+  padding: 1vw 0vw;
+  margin: 2.5vw 0vw 1vw;
+}
+.skills-container > p {
+  line-height: 6vw;
+  font-size: 3.5vw;
+}
+
+
+
+aside div {
+  background: #FF00D4;
+  width: 12vw;
+  height: 12vw;
+  display: inline-flex;
+  margin: auto;
+  margin: 0vw 9vw 15vw;
+}
+aside div > img {
+  width: 12vw;
+}
+
+/*------------------------------------*/
+#html5{
+  background: linear-gradient(to top, #FF6900, #FFA600);
+}
+#css3 > img {
+  width: 10.5vw;
+  height: 12.5vw;
+}
+#css3 {
+  width: 10.5vw;
+  background: linear-gradient(to top, #008FE3, #33D1ED);
+}
+#js6 > img {
+  width: 11.5vw;
+  height: 12vw;
+}
+#js6 {
+  width: 11.5vw;
+  background: linear-gradient(to top, #FF9E06, #E8CE01)
+}
+/*------------------------------------*/
+
+
+
+/*     Projects     */
+
+
+.projects-container {
+  padding: 0vw 5vw;
+  margin-top: 10vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project {
+  width: 100%;
+  margin: 4vw auto;
+  background: #191919F6;
+}
+.project-img {
+  padding: 4vw;
+}
+.project-img > img {
+  box-shadow: 0px .2px 8px #090909F0;
+}
+
+.project-img > #breve {
+  width: 100%;
+  padding: 17vw 0vw;
+  background: #252528;
 }

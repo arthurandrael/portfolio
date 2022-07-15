@@ -187,7 +187,7 @@ main {
 }
 
 .dark {
-  background: #111111;
+  background: #101014;
 }
 .dark p {
   padding: 0vw 5vw;
@@ -195,8 +195,8 @@ main {
 
 .titles {
   background: linear-gradient(45deg, #25aef3, #0dc4d9);
-  width: 29vw;
-  padding: 1.5vw 0vw;
+  width: 30vw;
+  padding: 2vw 0vw;
   margin: auto;
 }
 .titles > h2 {
@@ -219,7 +219,7 @@ main {
 
 
 .light {
-  background: #151515F7;
+  background: #121219F9;
 }
 
 
@@ -292,7 +292,7 @@ aside div > img {
 
 
 .projects-container {
-  padding: 0vw 5vw;
+  padding: 0vw 5vw 13vw;
   margin-top: 10vw;
   display: flex;
   flex-wrap: wrap;
@@ -313,4 +313,93 @@ aside div > img {
   width: 100%;
   padding: 17vw 0vw;
   background: #252528;
+}
+
+.project > h3 {
+  font-size: 5vw;
+  font-weight: 500;
+}
+
+.project > p {
+  font-size: 3.48vw;
+  line-height: 6.5vw;
+  letter-spacing: 0.4vw;
+  padding: 6vw 3vw;
+}
+
+.project > a {
+  text-decoration: none;
+  background: linear-gradient(20deg, #25aef3, #00F2FF);
+  display: inline-block;
+  -webkit-background-clip: text; background-clip: text;
+  color: transparent;
+  border: .4vw solid #00BCE8;
+  padding: 1.8vw 3.5vw;
+  margin-bottom: 7vw;
+  border-radius: .7vw;
+}
+
+.project > a:hover {
+  color: #F3F4F6;
+  cursor: pointer;
+  background: linear-gradient(20deg, #00A5E8, #09CBFF);
+}
+
+
+.contact{
+  padding: 0vw 5vw 8.5vw;
+}
+form {
+  background: #161616;
+  text-align: justify;
+  padding: 10vw 5vw;
+  margin: 10vw auto 0vw;
+  box-shadow: 0px .1px 10px #090909F0;
+}
+form > label {
+  font-size: 3.5vw;
+}
+
+form > input, textarea{
+  width: 90%;
+  padding: 3vw 2vw;
+  background: #161616;
+  border: .4vw solid #4EDAF2A6;
+  outline: none;
+  color: #F3F4F6;
+  font-size: 3.2vw;
+  margin: 1vw 0vw 3.8vw;
+}
+
+form > button {
+  width: 45%;
+  border: .3vw solid #38B9FF8F;
+  padding: 2.3vw;
+  color: #42DEF9BD;
+  background: #161616;
+  margin: 6vw 0vw 0vw;
+}
+form > button:hover {
+  background: linear-gradient(45deg, #0096FF, #47B3FF);
+  color: #F3F4F6;
+}
+
+
+
+/*     FOOTER     */
+
+footer {
+  background: #030303;
+  color: #F3F4F6;
+  font-size: 4vw;
+  text-align: center;
+  line-height: 7vw;
+  padding: 8vw 0vw 3vw;
+}
+footer > strong {
+  color: #F3F4F6;
+}
+footer > a {
+  color: #F3F4F6;
+  font-style: italic;
 }

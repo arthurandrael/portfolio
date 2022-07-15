@@ -374,7 +374,8 @@ form > input, textarea{
 form > button {
   width: 45%;
   border: .3vw solid #38B9FF8F;
-  padding: 2.3vw;
+  padding: 2.4vw;
+  font-size: 3.6vw;
   color: #42DEF9BD;
   background: #161616;
   margin: 6vw 0vw 0vw;

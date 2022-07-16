@@ -13,8 +13,7 @@ body{box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
+/*media*/
 /*    HEADER SECTION    */
 
 .header {
@@ -324,6 +323,7 @@ aside div > img {
 .project > h3 {
   font-size: 5vw;
   font-weight: 500;
+  /*text-transform: uppercase;*/
 }
 
 .project > p {
@@ -409,4 +409,37 @@ footer > strong {
 footer > a {
   color: #F3F4F6;
   font-style: italic;
+}
+
+
+
+
+
+
+/*--------------Tablets---------------*/
+
+@media (min-width: 580px) and (max-width: 900px) {
+  
+  header img {width: 35vw;}
+  
+  label{display: none;}
+  
+  nav {
+    height: 5vw;
+    margin-top: 73vw;
+    background: transparent;
+    z-index: 2;
+    display: flex;
+  }
+  
+  nav ul {display: flex;
+  height: 5vw;
+  width: 100vw;
+  margin-left: 47vw;
+  }
+  ul > li{padding: 0vw; margin: 0vw;}
+  ul li > a {
+    font-size: 2.4vw;
+    padding: 0vw;
+  }
 }

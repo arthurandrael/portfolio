@@ -420,13 +420,13 @@ footer > a {
 
 @media (min-width: 580px) and (max-width: 900px) {
   
-  header img {width: 35vw;}
+  header img {width: 33vw;}
   
-  label{display: none;}
+  label > img{display: none;}
   
   nav {
     height: 5vw;
-    margin-top: 73vw;
+    margin-top: 73%;
     background: transparent;
     z-index: 2;
     display: flex;
@@ -435,11 +435,58 @@ footer > a {
   nav ul {display: flex;
   height: 5vw;
   width: 100vw;
-  margin-left: 47vw;
+  margin-left: 33vw;
   }
   ul > li{padding: 0vw; margin: 0vw;}
   ul li > a {
-    font-size: 2.4vw;
+    font-size: 2.35vw;
     padding: 0vw;
   }
+  
+  
+  .section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  
+  
+  .header-right {
+    width: 50vw;
+    height: 100%;
+    display: block;
+  }
+  
+  
+  .header-left {font-size: 3.5vw; letter-spacing: 0.5vw;
+    padding: 0;
+    width: 50vw;
+  }
+  
+  .header-left h1 {
+    font-size: 8vw;
+    letter-spacing: 1vw;
+  }
+  
+  #spanB{font-size: 2vw;
+    letter-spacing: 0.5vw;
+  }
+  
+  .header-left  a {
+  font-size: 1.2vw;
+  padding: 1.7vw 1.5vw;
+  border-radius: .6vw;
+  letter-spacing: 0.3vw;
+  line-height: 4vw;
+  }
+  
+  #linkedin{border: .25vw solid mediumvioletred;}
+  #github{border: .25vw solid #7106FF;
+    padding: 1.5vw 1.5vw;
+  }
+  
+  
+  .header-left a > img{width: 2vw;}
 }

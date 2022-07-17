@@ -463,8 +463,8 @@ footer > a {
     display: block;
     background: #FD00BE;
   }
-  .header-right > img {margin-top: 25%;
-    margin-left: 35%;
+  .header-right > img {margin-top: 35%;
+    margin-left: 25%;
     animation-name: float;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -472,31 +472,31 @@ footer > a {
   
   
   @keyframes float {
-    0%{margin-top: 26%;}
-    50%{margin-top: 27%;}
-    100%{margin-top: 26%;}
+    0%{margin-top: 33%;}
+    50%{margin-top: 37%;}
+    100%{margin-top: 33%;}
   }
   
   
   
   
-  .header-left {font-size: 4.5vh; letter-spacing: 1vw;
+  .header-left {font-size: 5.5vh; letter-spacing: 1vw;
     padding: 0;
     width: 50vw;
   }
   
   .header-left h1 {
-    font-size: 9vh;
+    font-size: 11vh;
     letter-spacing: 1vh;
   }
   
-  #spanB{font-size: 2.3vh;
+  #spanB{font-size: 2.8vh;
     letter-spacing: .8vh;
   }
   
   .header-left  a {
-  font-size: 1.8vh;
-  padding: 3vh 1.5vw;
+  font-size: 2.2vh;
+  padding: 3.2vh 1.7vw;
   border-radius: .6vw;
   letter-spacing: 0.3vw;
   line-height: 4vh;
@@ -504,7 +504,7 @@ footer > a {
   
   #linkedin{border: .25vw solid mediumvioletred;}
   #github{border: .25vw solid #7106FF;
-    padding: 2.5vh 2vw;
+    padding: 3.1vh 2.3vw;
   }
   
   

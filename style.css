@@ -89,6 +89,12 @@ main {
   position: relative;
 }
 
+::selection {
+  background: #0DC4D9;
+  color: #F3F4F6;
+  font-weight: bold;
+}
+
 
 .section-header {
   background: #181820F6;
@@ -375,6 +381,7 @@ form > input, textarea{
   color: #F3F4F6;
   font-size: 3.2vw;
   margin: 1vw 0vw 3.8vw;
+  caret-color: #00F7FF;
 }
 
 form > button {
@@ -465,9 +472,7 @@ footer > a {
   }
   .header-right > img {margin-top: 35%;
     margin-left: 25%;
-    animation-name: float;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation: float 3s linear infinite;
   }
   
   

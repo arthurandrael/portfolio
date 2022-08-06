@@ -427,13 +427,13 @@ footer > a {
 
 @media (min-width: 580px) and (max-width: 900px) {
   
-  header img {width: 33vw;}
+  header img {width: 27vw;}
   
   label > img{display: none;}
   
   nav {
     height: 30%;
-    margin-top: 73%;
+    margin-top: 71%;
     background: transparent;
     z-index: 2;
     display: flex;
@@ -442,11 +442,11 @@ footer > a {
   nav ul {display: flex;
   height: 30%;
   width: 100vw;
-  margin-left: 33vw;
+  margin-left: 37vw;
   }
   ul > li{padding: 0vw; margin: 0vw;}
   ul li > a {
-    font-size: 2.3vw;
+    font-size: 2.1vw;
     padding: 0vw;
   }
   
@@ -468,7 +468,6 @@ footer > a {
     width: 50vw;
     height: 100%;
     display: block;
-    background: #FD00BE;
   }
   .header-right > img {margin-top: 35%;
     margin-left: 25%;
@@ -514,4 +513,8 @@ footer > a {
   
   
   .header-left a > img{width: 2vw;}
+  
+  .conteudo {font-size: 3vw;}
+  
+  .titles > h2 {font-size: 4.3vw;}
 }

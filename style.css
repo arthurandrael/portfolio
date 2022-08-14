@@ -98,7 +98,7 @@ main {
 
 .section-header {
   background: #181820F6;
-  height: 90vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,7 +141,7 @@ main {
 #spanB {
   font-size: 3.5vw;
   position: absolute;
-  line-height: 6vw;
+  line-height: 3vw;
 }
 
 
@@ -442,7 +442,7 @@ footer > a {
   nav ul {display: flex;
   height: 30%;
   width: 100vw;
-  margin-left: 37vw;
+  margin-left: 43vw;
   }
   ul > li{padding: 0vw; margin: 0vw;}
   ul li > a {
@@ -469,12 +469,14 @@ footer > a {
     height: 100%;
     display: block;
   }
+
   .header-right > img {/*margin-top: 37%;
     margin-left: 19%;*/
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 60%;
+    vertical-align: middle;
+    margin: auto 25%;
+    width: 55%;
     animation: float 3s linear infinite;
   }
   
@@ -488,9 +490,16 @@ footer > a {
   
   
   
-  .header-left {font-size: 180%; letter-spacing: 1vw;
+  .header-left {font-size: 200%; letter-spacing: 1vw;
     padding: 0;
     width: 50vw;
+    height: 100%;
+  }
+  
+  .info-container {
+    display: flexbox;
+    position: relative;
+    top: 25%
   }
   
   .header-left h1 {
@@ -503,22 +512,226 @@ footer > a {
   }
   
   .header-left  a {
-  font-size: 32%;
-  padding: 7% 6%;
-  border-radius: .6vw;
+  font-size: 1.2vw;
+  padding: 5% 4%;
+  border-radius: .5vw;
   letter-spacing: 0.3vw;
   line-height: 4vh;
   }
   
-  #linkedin{border: .25vw solid mediumvioletred;}
-  #github{border: .25vw solid #7106FF;
-    padding: 7% 8%;
+  #linkedin{border: .20vw solid mediumvioletred;}
+  #github{border: .20vw solid #7106FF;
+    padding: 5% 7%;
   }
   
   
-  .header-left a > img{width: 2vw;}
+  .header-left a > img{width: 1.5vw;}
   
-  .conteudo {font-size: 3vw;}
-  
-  .titles > h2 {font-size: 4.3vw;}
+
+
+
+
+  /*     Conteúdo     */
+
+
+.conteudo {
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+.dark {
+  background: #101014;
+  padding: 1vw 0vw 0vw;
+}
+.dark p {
+  padding: 0vw 7vw;
+}
+
+.titles {
+  background: linear-gradient(45deg, #25aef3, #0dc4d9);
+  width: 15vw;
+  padding: 1vw 0vw;
+  margin: auto;
+}
+.titles > h2 {
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+.conteudo p {
+  letter-spacing: 0.30vw;
+  text-align: center;
+  width: 70%;
+  line-height: 3.7vw;
+  margin: 0 0 2.5% 15%;
+}
+
+
+
+
+/*       SKILLS         */
+
+#skills-block {display: flex;}
+
+
+.skills-container {
+  padding: 2vw 2vw;
+  width: 35%;
+  height: 50%;
+  margin: 4vw 0 0 10vw;
+  font-size: 1vw;
+}
+
+#mobile >img, #web > img {
+  width: 5vw;
+}
+#mobile, #web {
+  background: linear-gradient(to top, #25AEF3, #0DC4D9);
+  width: 5vw;
+  height: 5vw;
+  margin: auto;
+}
+
+.skills-container > h3 {
+  font-size: 2.2vw;
+  padding: 1vw 0vw;
+  margin: 2.5vw 0vw 1vw;
+}
+.skills-container > p {
+  line-height: 2.2vw;
+  margin-left: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 1.45vw;
+}
+
+
+
+aside div {
+  width: 5vw;
+  height: 5.5vw;
+  display: inline-flex;
+  margin: 5vw 9vw 8vw;
+}
+aside div > img {
+  width: 5vw;
+}
+
+/*------------------------------------*/
+#css3 > img {
+  width: 5vw;
+  height: 6vw;
+}
+#css3 {
+  width: 5vw;
+}
+#js6 > img {
+  width: 5vw;
+  height: 5.5vw;
+}
+#js6 {
+  width: 5vw;
+}
+/*------------------------------------*/
+
+
+
+
+/*     Projects     */
+
+
+.projects-container {
+  padding: 0vw 2vw 2vw;
+  margin-top: 5vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project {
+  width: 30%;
+  margin: 2vw auto;
+  background: #191919F6;
+}
+.project-img {
+  padding: 1.3vw;
+  height: 50%;
+}
+.project-img > img {
+  height: 100%;
+}
+
+.project-img > #breve {
+  width: 100%;
+  padding: 17vw 0vw;
+  background: #252528;
+}
+
+.project > h3 {
+  font-size: 2vw;
+  /*text-transform: uppercase;*/
+}
+
+.project > p {
+  font-size: 1.3vw;
+  line-height: 2vw;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.2vw;
+  padding: 3vw 3vw;
+}
+
+.project > a {
+  border: .15vw solid #00BCE8;
+  padding: 1.2vw 2vw;
+  margin-bottom: 4vw;
+  border-radius: .7vw;
+}
+
+
+
+
+
+form {
+  padding: 2vw 1.5vw;
+  margin: 5vw auto 0vw;
+  width: 35%;
+  height: 40%;
+}
+form > label {
+  font-size: 1.5vw;
+}
+
+form > input, textarea{
+  width: 90%;
+  padding: 1vw .5vw;
+  font-size: 1.5vw;
+  margin: 1vw 0vw 3vw;
+  border: .195vw solid #4EDAF2A6;
+}
+
+form > button {
+  width: 47%;
+  border: .15vw solid #38B9FF8F;
+  padding: 1.3vw;
+  font-size: 1.7vw;
+  color: #42DEF9BD;
+  background: #161616;
+  margin: 3.5vw 0vw 0vw;
+}
+
+
+
+/*     FOOTER     */
+
+footer {
+  font-size: 1.4vw;
+  line-height: 3vw;
+  padding: 1vw 0vw 1vw;
+}
+
+
+
+
+
+
+
+
 }

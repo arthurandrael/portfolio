@@ -425,15 +425,15 @@ footer > a {
 
 /*--------------Tablets---------------*/
 
-@media (min-width: 580px) and (max-width: 900px) {
+@media (min-width: 560px) {
   
-  header img {width: 27vw;}
+  header img {width: 19vw;}
   
   label > img{display: none;}
   
   nav {
     height: 30%;
-    margin-top: 71%;
+    margin-top: 69%;
     background: transparent;
     z-index: 2;
     display: flex;
@@ -446,7 +446,7 @@ footer > a {
   }
   ul > li{padding: 0vw; margin: 0vw;}
   ul li > a {
-    font-size: 2.1vw;
+    font-size: 1.5vw;
     padding: 0vw;
   }
   
@@ -459,7 +459,7 @@ footer > a {
   }
   
   .info-container{padding: 0vw -10vw; 
-    width: 90%;
+    width: 100%;
   }
   
   
@@ -469,8 +469,12 @@ footer > a {
     height: 100%;
     display: block;
   }
-  .header-right > img {margin-top: 35%;
-    margin-left: 25%;
+  .header-right > img {/*margin-top: 37%;
+    margin-left: 19%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
     animation: float 3s linear infinite;
   }
   
@@ -484,23 +488,23 @@ footer > a {
   
   
   
-  .header-left {font-size: 5.5vh; letter-spacing: 1vw;
+  .header-left {font-size: 180%; letter-spacing: 1vw;
     padding: 0;
     width: 50vw;
   }
   
   .header-left h1 {
-    font-size: 11vh;
+    font-size: 5%;
     letter-spacing: 1vh;
   }
   
-  #spanB{font-size: 2.8vh;
+  #spanB{font-size: 45%;
     letter-spacing: .8vh;
   }
   
   .header-left  a {
-  font-size: 2.2vh;
-  padding: 3.2vh 1.7vw;
+  font-size: 32%;
+  padding: 7% 6%;
   border-radius: .6vw;
   letter-spacing: 0.3vw;
   line-height: 4vh;
@@ -508,7 +512,7 @@ footer > a {
   
   #linkedin{border: .25vw solid mediumvioletred;}
   #github{border: .25vw solid #7106FF;
-    padding: 3.1vh 2.3vw;
+    padding: 7% 8%;
   }
   
   
